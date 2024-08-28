@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct PeliculasAppApp: App {
+    
+    @StateObject private var appRootManager = AppRootManager()
+    
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            Group {
+                switch(appRootManager.currentRoot) {
+                case .splash:
+                    SplashRootView()
+                    
+                case .principal:
+                    PrincipalRootView()
+                }
+            }
+            .environmentObject(appRootManager)
         }
     }
 }
