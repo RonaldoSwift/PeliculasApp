@@ -1,0 +1,12 @@
+//
+//  Prod.xcconfig
+//  PeliculasApp
+//
+//  Created by Ronaldo Andre on 28/08/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+URL_BASE = https:/$()/api.themoviedb.org
+API_KEY = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMWJkZDQzZDA4ZmI4YjY1MWIyNmU0OWU3MmRkNGNhZiIsIm5iZiI6MTcyNDc3ODI0My42NDA3NTYsInN1YiI6IjY2Y2QxNjBjNDJkZTc2YTliMDhhMDU0NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dVphNM8VrsikWvXI3lXpGN9XVDo8FI0eM38-hRxjUkQ
