@@ -29,10 +29,9 @@ class PeliculasWebService {
         
         urlRequest.httpMethod = "GET"
         
-        urlRequest.setValue("Authorization", forHTTPHeaderField: "Bearer \(apiKey)")
-        urlRequest.setValue("accept", forHTTPHeaderField: "application/json")
+        urlRequest.setValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
+        urlRequest.setValue("application/json", forHTTPHeaderField: "accept")
         urlRequest.setValue("application/json", forHTTPHeaderField: "Content-Type")
-
         
         return URLSession.shared.dataTaskPublisher(for: urlRequest)
             .tryMap { (data: Data, response: URLResponse) in
