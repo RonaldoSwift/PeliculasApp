@@ -1,0 +1,12 @@
+//
+//  Dev.xcconfig
+//  PeliculasApp
+//
+//  Created by Ronaldo Andre on 29/08/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+URL_BASE = http:/$()/192.168.1.39:3004
+API_KEY = ABC

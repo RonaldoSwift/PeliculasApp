@@ -1,0 +1,80 @@
+{
+  "uuid": "a8d386c1-99d6-4eae-bc31-3bb9204b49ff",
+  "lastMigration": 32,
+  "name": "PeliculasApp",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3004,
+  "hostname": "192.168.1.39",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "52778446-58b5-467d-a60f-a620af675744",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "3/discover/movie",
+      "responses": [
+        {
+          "uuid": "3969e208-939a-440f-ba07-130f1a5d1d31",
+          "body": "{\n    \"page\": 1,\n    \"total_pages\": 45741,\n    \"total_results\": 914801\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "52778446-58b5-467d-a60f-a620af675744"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}

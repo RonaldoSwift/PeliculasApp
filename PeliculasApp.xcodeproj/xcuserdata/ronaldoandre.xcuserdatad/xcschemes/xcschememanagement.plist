@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PeliculasApp.xcscheme_^#shared#^_</key>
+		<key>PeliculasApp(Dev).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>PeliculasApp(Prod).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>PeliculasApp.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FA356A912C794BCB0032F125</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA356AA12C794BCC0032F125</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA356AAB2C794BCC0032F125</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
